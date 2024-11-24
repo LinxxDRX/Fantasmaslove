@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Fantasmas love encoded</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    .poema-container {
+        max-width: 800px;
+        margin: 8rem auto; /* Aumentado el margen superior */
+        font-family: 'Georgia', serif;
+        text-align: center;
+        padding: 3rem;
+        background-color: rgba(240, 240, 240, 0.8);
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+        animation: floatPoem 4s ease-in-out infinite;
+    }
+
+    @keyframes floatPoem {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+    }
+
+    .titulo {
+        color: #2c3e50;
+        margin-bottom: 3rem;
+        font-size: 2.8rem;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        animation: glowTitle 2s ease-in-out infinite;
+    }
+
+    @keyframes glowTitle {
+        0%, 100% { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
+        50% { text-shadow: 0 0 15px rgba(44, 62, 80, 0.5); }
+    }
+
+    .estrofa {
+        margin-bottom: 2.5rem;
+        line-height: 2;
+        font-size: 1.3rem;
+        color: #34495e;
+        opacity: 0.9;
+        transition: opacity 0.3s ease;
+    }
+
+    .estrofa:hover {
+        opacity: 1;
+        transform: scale(1.02);
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center;">Te amo, cariño</h1>
+<div class="container">
+  <div class="egg">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <div class="face">
+        <div class="eyes"></div>
+        <div class="smile"></div>
+        <div class="cheeks"></div>
+        <div class="shine"></div>
+      </div>
+    </ul>
+  </div>
+  <div class="shadow" id="egg-shadow"></div>
+  <div class="heart">
+    <div class="light"></div>
+  </div>
+  <div class="ghost">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <div class="face">
+      <div class="eyes"></div>
+      <div class="smile"></div>
+      <div class="cheeks"></div>
+    </div>
+  </div>
+  <div class="shadow" id="ghost-shadow"></div>
+</div>
+
+<div class="poema-container">
+    <h1 class="titulo">Amor Más Allá del Tiempo</h1>
+    
+    <div class="estrofa">
+        Somos dos espíritus unidos por la eternidad,
+        flotando sin rumbo en la inmensidad,
+        ni el tiempo ni el espacio nos pueden separar,
+        pues nuestro amor trasciende la mortalidad.
+    </div>
+
+    <div class="estrofa">
+        En cada rincón oscuro, en cada sombra y luz,
+        nuestras almas danzan una danza sin fin,
+        yo soy tu norte eterno, tú eres mi sur,
+        dos fantasmas amantes en este mundo sin confín.
+    </div>
+
+    <div class="estrofa">
+        No necesitamos cuerpos para sentir amor,
+        ni lágrimas tangibles para expresar emoción,
+        nuestro vínculo es puro, como el más dulce ardor,
+        eterno e inquebrantable, late cual corazón.
+    </div>
+
+    <div class="estrofa">
+        Atravesamos paredes, flotamos entre estrellas,
+        nuestro amor es más fuerte que cualquier realidad,
+        somos dos almas libres, dos historias bellas,
+        destinadas a amarse por toda la eternidad.
+    </div>
+
+    <div class="estrofa">
+        Y aunque el mundo cambie, aunque todo se transforme,
+        seguiremos juntos, amor, más allá del final,
+        porque nuestro amor es único, es enorme,
+        un amor de fantasmas, ¡un amor inmortal!
+    </div>
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
